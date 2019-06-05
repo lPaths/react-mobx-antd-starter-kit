@@ -1,17 +1,19 @@
 {
-  "name": "react-mobx-starter",
+  "name": "react-mobx-antd-starter-kit",
   "version": "0.1.0",
+  "author": "Paths",
   "private": true,
   "dependencies": {
     "antd": "^3.19.2",
     "customize-cra": "^0.2.13",
     "less": "^3.9.0",
-    "mobx": "^5.9.4",
+    "mobx": "^5.10.0",
     "mobx-react": "^6.0.3",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.3",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0",
+    "react-dom": "npm:@hot-loader/react-dom",
+    "react-hot-loader": "^4.9.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "typescript": "^3.5.1"
   },
