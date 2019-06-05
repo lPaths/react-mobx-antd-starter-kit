@@ -6,11 +6,7 @@ import { inject, observer } from 'mobx-react'
 class App extends Component {
   render () {
     const {
-      props: {
-        stores: {
-          appState
-        }
-      }
+      props: { stores: { appState } }
     } = this
     return (
       <>
