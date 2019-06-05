@@ -2,7 +2,7 @@ import React from 'react'
 import { hot } from 'react-hot-loader/root'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
-import NavigatorBar from '../components/Navigator'
+import AnchorButton from '../components/anchor/index'
 import { routes, route404 } from './index'
 
 function AppRouter () {
@@ -10,7 +10,7 @@ function AppRouter () {
     <>
       <Router>
         <>
-          <NavigatorBar routes={routes} route404={route404} />
+          <AnchorButton routes={routes} route404={route404} />
           <Switch>
             {routes.map((route, index) => {
               const { path, exact, component } = route

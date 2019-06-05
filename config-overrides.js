@@ -11,6 +11,7 @@ module.exports = override(
   ...addBabelPlugins(
     '@babel/plugin-transform-spread',
     ['@babel/plugin-proposal-class-properties', { loose: true }],
+    'react-hot-loader/babel'
   ),
   fixBabelImports('import', {
     libraryName: 'antd',
